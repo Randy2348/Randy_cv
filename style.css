@@ -161,7 +161,7 @@ img {
   max-width: 100%;
 }
 
-.services {
+.habilidades {
   background: #111;
 }
 
@@ -169,14 +169,14 @@ img {
   color: #fff;
 }
 
-.services .content {
+.habilidades .content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
-.services .content .servicesBx {
+.habilidades .content .habilidadesBx {
   padding: 40px 20px;
   background: #222;
   color: #fff;
@@ -186,16 +186,15 @@ img {
   transition: 0.5s;
 }
 
-.services .content .servicesBx:hover {
+.habilidades .content .habilidadesBx:hover {
   background: var(--azul);
 }
 
-.services .content .servicesBx img {
-  max-width: 80px;
-  filter: invert(1);
+.habilidades .content .habilidadesBx img {
+  max-width: 140px;
 }
 
-.services .content .servicesBx h2 {
+.habilidades .content .habilidadesBx h2 {
   font-size: 20px;
   font-weight: 600;
 }
@@ -446,7 +445,7 @@ img {
   .w50 {
     margin: 20px auto 0;
   }
-  .services .content .servicesBx {
+  .habilidades .content .habilidadesBx {
     margin: 10px;
   }
   .work .content .workBx {
