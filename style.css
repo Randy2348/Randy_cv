@@ -192,6 +192,7 @@ img {
 
 .habilidades .content .habilidadesBx img {
   max-width: 140px;
+  max-height: 80px;
 }
 
 .habilidades .content .habilidadesBx h2 {
@@ -199,17 +200,17 @@ img {
   font-weight: 600;
 }
 
-.work .content {
+.proyectos .content {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.work .content .workBx {
+.proyectos .content .proyectosBx {
   width: 50%;
   padding: 20px;
 }
-.work .content .workBx img {
+.proyectos .content .proyectosBx img {
   max-width: 100%;
 }
 
@@ -448,7 +449,7 @@ img {
   .habilidades .content .habilidadesBx {
     margin: 10px;
   }
-  .work .content .workBx {
+  .proyectos .content .proyectosBx {
     width: 100%;
     padding: 10px;
   }
