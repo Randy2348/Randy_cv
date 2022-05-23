@@ -209,12 +209,20 @@
                     </div>
                 </div>
             </div>
+            <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("nbmF2JUCXWMf0Za2n");
+   })();
+</script>
             <div class="formBx">
-                <form>
+                <form id="form">
                     <h3>Escribe aquí...</h3>
-                    <input type="text" name="" placeholder="Tu nombre">
-                    <input type="email" name="" placeholder="Tu email">
-                    <textarea name="" placeholder="Tu mensaje  :)"></textarea>
+                    <input type="text" name="name" placeholder="Tu nombre">
+                    <input type="email" name="email" placeholder="Tu email">
+                    <textarea name="message" placeholder="Tu mensaje  :)"></textarea>
                     <input type="submit" value="OK">
                 </form>
             </div>
@@ -237,5 +245,6 @@
             menu.classList.toggle('active');
         }
     </script>
+    <script src="app.js" />
 </body>
 </html>
