@@ -10,7 +10,7 @@ form.addEventListener("submit", () =>
     }
   )
 );
-
+alert("Hola");
 var templateParams = {
   name: "James",
   email: "randy2348.rj@gmail.com",
