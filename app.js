@@ -25,12 +25,10 @@ const sendEmail = (e) => {
     )
     .then(
       function (response) {
-        console.log("SUCCESS!", response.status, response.text);
-        alert("¡GRACIAS, TU MENSAJE FUE ENVIADO!");
+        alert("SUCCESS!", response.status, response.text);
       },
       function (error) {
-        console.log("FAILED...", error);
-        alert("HUBO UN ERROS AL ENVIAR TU MENSAJE");
+        alert("FAILED...", error);
       }
     );
 };
