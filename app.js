@@ -3,14 +3,14 @@ const form = document.getElementById("form");
 form.addEventListener("submit", () =>
   emailjs.sendForm("RandomXD", "portfolioTemplate", form).then(
     function (response) {
-      console.log("SUCCESS!", response.status, response.text);
+      alert("SUCCESS!", response.status, response.text);
     },
     function (error) {
-      console.log("FAILED...", error);
+      alert("FAILED...", error);
     }
   )
 );
-alert("Hola");
+
 var templateParams = {
   name: "James",
   email: "randy2348.rj@gmail.com",
