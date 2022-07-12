@@ -5,10 +5,12 @@ form.addEventListener("submit", () =>
     .sendForm("RandomXD", "portfolioTemplate", form, "nbmF2JUCXWMf0Za2n")
     .then(
       function (response) {
-        alert("SUCCESS!", response.status, response.text);
+        console.log("SUCCESS!", response.status, response.text);
+        alert("¡GRACIAS, TU MENSAJE FUE ENVIADO!");
       },
       function (error) {
-        alert("FAILED...", error);
+        console.log("FAILED...", error);
+        alert("HUBO UN ERROS AL ENVIAR TU MENSAJE");
       }
     )
 );
